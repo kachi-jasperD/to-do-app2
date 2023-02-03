@@ -16,6 +16,6 @@ b. Edit a task
 c. Delete a task
 d. Check if done.
 
-![Uploading Screenshot 2023-02-03 at 16.29.14.png…]()
+<img width="1448" alt="Screenshot 2023-02-03 at 16 32 29" src="https://user-images.githubusercontent.com/82647525/216642926-ea559a4c-fef1-4e9a-96a1-8f9be52268fb.png">
 
 And that should do it. Have fun with the app.
