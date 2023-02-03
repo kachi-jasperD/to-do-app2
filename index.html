@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/be0c1032e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google font font-family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="list.png" />
+    <!-- external css styling-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>My Daily Itenary 🧐</title>
+    <link rel="icon" type="image/x-icon" href="/images/task.png" />
+  </head>
+  <body>
+    <!-- create task -->
+    <main>
+      <header class="hero-image">
+        <div class="container">
+          <div id="header">
+            <h1>To-do List</h1>
+            <div class="inputted_task">
+              <input
+                type="text"
+                onfocus="this.value=''"
+                id="input"
+                placeholder="I must..."
+              /><button id="submit_item">Add Task</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Get list of all task -->
+      <section>
+        <div class="container" id="container-2">
+          <div id="to_do_list"></div>
+        </div>
+      </section>
+    </main>
+    <!-- external js file -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
