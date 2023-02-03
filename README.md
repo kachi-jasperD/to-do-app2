@@ -16,4 +16,6 @@ b. Edit a task
 c. Delete a task
 d. Check if done.
 
+![Uploading Screenshot 2023-02-03 at 16.29.14.png…]()
+
 And that should do it. Have fun with the app.
