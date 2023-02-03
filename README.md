@@ -1,4 +1,4 @@
-# Todo app using HTML, CSS, and JS.
+# Todo app using ```HTML, CSS, and JS```.
 
 A frontend to-do project built using only the aforementioned.
 
@@ -13,7 +13,7 @@ A frontend to-do project built using only the aforementioned.
 
 2. Open a text editor, preferably visual studio code.
 
-3. Open the HTML file (in the editor). Right-click on the file and click *Open with Live Server.
+3. Open the HTML file (in the editor). Right-click on the file and click ```Open with Live Server```.
 
 4. You can do the following:
 * Create a Task
