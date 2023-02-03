@@ -6,6 +6,11 @@ A frontend to-do project built using only the aforementioned.
 
 1. Clone repo.
 
+2. Double click on the index.html file. Then jump to bullet point (4) below. 
+
+
+###OR
+
 2. Open on text editor preferablly visual studio code.
 
 3. Open the HTML file (in the editor). Right click on file and click Open with Live Server
