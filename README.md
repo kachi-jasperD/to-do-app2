@@ -9,7 +9,7 @@ A frontend to-do project built using only the aforementioned.
 2. Double click on the index.html file. Then jump to bullet point (4) below. 
 
 
-###OR
+## OR
 
 2. Open on text editor preferablly visual studio code.
 
