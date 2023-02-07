@@ -1,3 +1,34 @@
+//creating the current date
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+const date = new Date();
+const day = date.getDay();
+const currentDate = date.getDate();
+const month = date.getMonth();
+const year = date.getFullYear();
+const FullDate = `${days[day]} ${currentDate} ${months[month]} ${year}`;
+
 // add task to the task list by pressing Enter on the keyboard
 document.querySelector("#input").addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
@@ -21,6 +52,7 @@ addItem = (input) => {
   const deleteTaskIcon = document.createElement("i");
   const text = document.createElement("p");
   const editedText = document.createElement("p");
+  const dateValue = document.createElement("span");
 
   // insert classnames and textcontent to particular node
   item.className = "item";
@@ -35,9 +67,14 @@ addItem = (input) => {
 
   item.appendChild(completedTaskIcon);
 
+  // Add current Date to each task
+  dateValue.textContent = FullDate;
+  div.appendChild(dateValue);
+
   // Giving EditTask element a classname, style and action
   editTaskIcon.className = "fas fa-edit";
   editTaskIcon.style.color = "darkgray";
+  editTaskIcon.style.padding = "2px";
 
   // prompt dialog box to update task
   function updatePrompt() {
